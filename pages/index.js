@@ -3,6 +3,7 @@ import { DialogBox, VerticalDivider } from "./components/components";
 import { Canvas } from "@react-three/fiber";
 import { Geometry, Stars } from "./threejsComps/comps";
 import { DocumentIcon, DesktopComputerIcon } from "@heroicons/react/solid";
+import Image from "next/image";
 
 function s4() {
   return Math.floor((1 + Math.random()) * 0x10000)
@@ -82,7 +83,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col w-full p-4 border-2 border-gray-200">
-            <img
+            <Image
               style={{ boxShadow: "2px 2px #000000" }}
               className="w-32 border-2 border-gray-200"
               src="/me.jpg"
@@ -135,21 +136,33 @@ export default function Home() {
             }`}
           >
             <div className="flex flex-row">
-              <img className="mr-1 w-6" src="/startIcon.png" />
+              <Image className="mr-1 w-6" src="/startIcon.png" />
               Start
             </div>
           </button>
 
           <VerticalDivider />
 
-          <a target="_blank" href="https://github.com/Japneet15597">
-            <img className="h-6 mx-2" src="/githubIcon.png" />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Japneet15597"
+          >
+            <Image className="h-6 mx-2" src="/githubIcon.png" />
           </a>
-          <a target="_blank" href="https://twitter.com/Japneet97Singh">
-            <img className="h-6 mx-2" src="/twitterIcon.png" />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/Japneet97Singh"
+          >
+            <Image className="h-6 mx-2" src="/twitterIcon.png" />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/japneetsingh97/">
-            <img className="h-6 mx-2" src="/linkedInIcon.png" />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/japneetsingh97/"
+          >
+            <Image className="h-6 mx-2" src="/linkedInIcon.png" />
           </a>
 
           <VerticalDivider />
