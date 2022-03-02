@@ -97,11 +97,6 @@ export default function Home() {
               className="gray-200 my-2"
             />
 
-            {/* <a href="./Portfolio.pdf" download>
-              <DocumentIcon className="w-12 text-white" />
-              Resume
-            </a> */}
-
             <div
               onClick={() => {
                 window.open("/Portfolio.pdf");
