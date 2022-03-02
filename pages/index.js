@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { DialogBox, VerticalDivider } from "./components/components";
 import { Canvas } from "@react-three/fiber";
 import { Geometry, Stars } from "./threejsComps/comps";
 import { DocumentIcon, DesktopComputerIcon } from "@heroicons/react/solid";
