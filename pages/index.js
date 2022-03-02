@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Geometry, Stars } from "./threejsComps/comps";
+import { Geometry, Stars } from "../threejsComps/comps";
 import { DocumentIcon, DesktopComputerIcon } from "@heroicons/react/solid";
 
 function s4() {
