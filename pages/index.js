@@ -76,10 +76,7 @@ export default function Home() {
           }}
           className="flex flex-row fixed bottom-10 left-0 h-2/4 w-80 whitespace-nowrap"
         >
-          <div
-            className="h-full w-1/12 bg-gradient-to-b from-blue-900 to-blue-500 p-4"
-            style={{ paddingTop: "95%" }}
-          >
+          <div className="h-full w-1/12 bg-gradient-to-b from-blue-900 to-blue-500 p-4">
             <div className=" font-bold text-2xl text-white rotate-90">
               JAPNEET SINGH
             </div>
