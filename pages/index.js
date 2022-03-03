@@ -93,7 +93,8 @@ export default function Home() {
             <span className="text-xl mt-1">
               Japneet Singh<span className="text-xs">, 24 y.o</span>
             </span>
-            <span className="">Full-Stack Developer</span>
+            <span>japneet.singh786@gmail.com</span>
+            <span>Full-Stack Developer</span>
 
             <hr
               style={{ boxShadow: "2px 2px #000000" }}
